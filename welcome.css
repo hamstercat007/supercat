@@ -76,17 +76,17 @@
 .pulse6 {
   animation-name: pulse2;
   animation-duration: 1s;
-  animation-delay: 16s;
+  animation-delay: 12s;
 }
 .pulse7 {
 	  animation-name: pulse2;
   animation-duration: 1s;
-  animation-delay: 17s;
+  animation-delay: 14s;
 }
 .pulse8 {
 	  animation-name: pulse2;
   animation-duration: 1s;
-  animation-delay: 18s;
+  animation-delay: 16s;
 }
 .pulse9 {
 	  animation-name: pulse2;
@@ -131,15 +131,15 @@
 .fadeOutUp1 {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
-  animation-delay: 12s;
-  animation-duration: 4s;
+  animation-delay: 10s;
+  animation-duration: 2s;
 }
 
 .fadeOutUp2 {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
-  animation-delay: 20s;
-  animation-duration: 4s;
+  animation-delay: 21s;
+  animation-duration: 2s;
 }
 
 .fadeOutUp3 {
