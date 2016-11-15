@@ -95,11 +95,21 @@
 }
 .pulse10 {
 	  animation-name: pulse2;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-delay: 18s;
 }
 
+.pulse11 {
+  animation-name:pulse2;
+  animation-duration: 2s;
+  animation-delay: 19s;
+}
 
+.pulse12 {
+  animation-name: pulse2;
+  animation-duration: 4s;
+  animation-delay: 21s;
+}
 
 .narrative {
 	position: absolute; /*specific location inside the parent*/
@@ -145,7 +155,7 @@
 .fadeOutUp3 {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
-  animation-delay: 16s;
+  animation-delay: 23s;
   animation-duration: 2s;
 }
 
@@ -156,12 +166,14 @@
 	top: 60px;
 	color: white;
 	animation-name:flash2;
-	animation-delay: 17s;
+	animation-delay: 25s;
 	animation-fill-mode: both;
 	animation-duration:5s;
-  transition: transform 4s;
+  transition: transform ease-in 4s;
 }
 
 .earth:hover {
   transform: rotate(360deg);
 }
+
+
