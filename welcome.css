@@ -2,11 +2,6 @@
   width:75vh;
 }
 
-.zoomInDown {
-  animation-duration: 1s;
-  display: inline;
-}
-
 .pulse {
 	animation-duration: 2s;
 	animation-delay: 2s;
@@ -48,11 +43,6 @@
   }
 }
 
-@keyframes flyforwards {
-  from {
-    
-  }
-}
 
 .pulse2 {
   animation-name: pulse2;
@@ -176,9 +166,19 @@
   transform: rotate(360deg);
 }*/
 
-.rotating-supercat {
+/* this somehow fixes blur */
+.zoomInDown img { transform: translateZ(0);  }
+
+.zoomInDown {
+  animation-duration: 1s;
+}
+.animated-supercat {
+  transform: translateX(400px) translateY(-100px) scale(0.75);
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 2s;
+}
+.animated-supercat .supercat {
   transform: rotate(50deg) scale(0.5) scaleX(-1) translate(-100px);
   transition-duration: 2s; 
 }
-
-

@@ -1,7 +1,5 @@
 $(document).ready(function(){
   $(".earth").click(function(){
-    $(".supercat").addClass("rotating-supercat");
+    $(".supercat-container").addClass("animated-supercat");
   })
 });
-
-
